@@ -18,7 +18,9 @@ uart:
   baud_rate: 9600
 
 remote_receiver:
-  pin: 3
+  pin: 
+    number: 3
+    allow_other_uses: true
 
 binary_sensor:
   - platform: remote_receiver
