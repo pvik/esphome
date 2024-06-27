@@ -14,7 +14,9 @@ logger:
 
 uart:
   tx_pin: 1
-  rx_pin: 3
+  rx_pin:
+    number: 3
+    allow_other_uses: true
   baud_rate: 9600
 
 remote_receiver:
